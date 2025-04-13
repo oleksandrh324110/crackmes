@@ -5,4 +5,4 @@ secret.forEach((c, i) => {
 	res += String.fromCharCode((c.charCodeAt(0) - 13) ^ (i + 7))
 })
 
-console.debug(res)
+console.debug(res) // LiZTeETf

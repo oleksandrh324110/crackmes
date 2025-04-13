@@ -33,4 +33,4 @@ for (let i = 0; i <= 20; ++i) {
 	res += String.fromCharCode(v6[i] ^ v6[24 + i])
 }
 
-console.debug(res)
+console.debug(res) // flag{_y0u_f0und_key_}
